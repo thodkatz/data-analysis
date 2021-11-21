@@ -13,7 +13,6 @@ for i=n
     count = count + 1;
 end
 
-
 labels = categorical(cellstr(compose("%.1e",n)));
 bar(labels,[head tail])
 legend('head','tail')

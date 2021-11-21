@@ -5,7 +5,7 @@
 lambda = 1;
 
 % generate random numbers using uniform distribution
-y = -1/lambda*log(1-rand(1e3,1));
+y = -1/lambda * log(1-rand(1e3,1));
 
 histogram(y,'Normalization','pdf')
 
@@ -17,4 +17,3 @@ plot(x,showExp,'LineWidth',2)
 
 xlabel('$X$','Interpreter','latex')
 ylabel('$f_{x}(X)$','Interpreter','latex')
-
